@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="RuleEngineServiceType" factoryClass="com.progress.codeshare.esbservice.ruleEngine.RuleEngineService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="drlFile"/>
+            <stringParam name="dslFile"/>
+            <stringParam name="mode"/>
+            <stringParam name="uri"/>
+        </runtime>
+    </validParams>
+</serviceType>
